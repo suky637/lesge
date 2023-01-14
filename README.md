@@ -47,6 +47,21 @@ In this version here's the features
 - ```IMGUI_Text(text)```: create a text
 - ```IMGUI_Button(text, width, height)```: create a button. width and height can be set to 0. *returns 1 if the button is pressed*
 - ```IMGUI_Slider(text, val, minval, maxval)```: create a slider. *returns the val value. make sure to set the value variable to the function*
+
+
+- ```IMGUI_Float(name, val)```: create input field for one float. *returns the val value at the same order of the functions arguments.*
+- ```IMGUI_Float2(name, val, val2)```: create input field for 2 float. *returns the val value  at the same order of the functions arguments.*
+- ```IMGUI_Float3(name, val, val2, val3)```: create input field for 3 float. *returns the val value at the same order of the functions arguments.*
+- ```IMGUI_Float4(name, val, val2, val3, val4)```: create input field for 5 float. *returns the val value at the same order of the functions arguments.*
+
+- ```IMGUI_Int(name, val)```: create input field for one integer. *returns the val value at the same order of the functions arguments.*
+- ```IMGUI_Int2(name, val, val2)```: create input field for 2 integer. *returns the val value  at the same order of the functions arguments.*
+- ```IMGUI_Int3(name, val, val2, val3)```: create input field for 3 integer. *returns the val value at the same order of the functions arguments.*
+- ```IMGUI_Int4(name, val, val2, val3, val4)```: create input field for 4 integer. *returns the val value at the same order of the functions arguments.*
+
+- ```IMGUI_ColorEdit3(name, r, g, b)```: very buggy, consider using Int3
+- ```IMGUI_ColorEdit4(name, r, g, b, a)```: very buggy, consider using Int4
+
 - ```SFX_Init()```: Initialize SFX (SDL2_mixer)
 - ```SFX_Load(file_name)```: Load a sound effect. *returns a boolean to see if the file has loaded correctly and the sound object* **Example**:
 ```lua
