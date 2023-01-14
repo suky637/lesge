@@ -73,6 +73,7 @@ In this version here's the features
 ```
 - ```SFX_Play(sound)```: Play the sound effect
 - ```SFX_Close()```: Close SDL2_mixer. make sure to call it when the program has been closed.
+- ```LUA_runfile(filename)```: Run a .lua file *Returns true if sucess, return 0 if failed.*
 ## Creating a project
 first copy all the files and the dlls. after create a src folder and add the lua file; this will be intrepreted. then for all image loading **DO NOT PUT IT IN THE SRC FOLDER** because the start path is where the exe is located.
 
