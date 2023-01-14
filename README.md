@@ -3,7 +3,7 @@
 The LPSE is a engine that uses lua and C++ to make a game.
 In this version here's the features
 
-[https://github.com/suky637/lesge/raw/main/LESGE.zip](Download)
+[Download](https://github.com/suky637/lesge/raw/main/LESGE.zip)
 
 - All key | mouse input
 - Two Axis (Vertical, Horizontal)
