@@ -84,14 +84,14 @@ function main()
     FPS = 1 / 60
     open = true
     frameTime = 0
-	prevTime = 0
-	currentTime = 0
-	deltaTime = 0
+    prevTime = 0
+    currentTime = 0
+    deltaTime = 0
 
     while open do
         prevTime = currentTime
-		currentTime = GetMillis()
-		deltaTime = (currentTime - prevTime) / 1000
+	currentTime = GetMillis()
+	deltaTime = (currentTime - prevTime) / 1000
 
         PollEvent()
         open = IsAppOpen()
