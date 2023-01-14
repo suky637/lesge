@@ -102,7 +102,7 @@ function main()
         frameTime = frameTime + deltaTime
         while (frameTime >= FPS) do
 		frameTime = frameTime - FPS
-           	-- Call your updates function; called 60 time a second
+           	-- Use this while loop for the logic of the game like input; your update function
 		
 		
 	end
