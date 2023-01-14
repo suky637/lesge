@@ -29,7 +29,7 @@ In this version here's the features
 - ```DrawLine(x1, y1, x2, y2)```: Draw a line
 - ```InitImage()```: Initialize SDL_Image
 - ```LoadImage(file_path)```: takes a path and open a image to a texture *Returns a image class* **PNG ONLY**
-- ```DrawImage(image)```: Draw a image
+- ```DrawImage(image, x, y, width, height)```: Draw a image
 - ```DestroyImage(image)```: Destroy the image
 - ```GetKey(key: char)```: Get the key if its pressed *return a 1 if the key is pressed*
 - ```GetMouse(mouse_button)```: Get the mousebutton if its pressed *returns 1 if the button is pressed*
