@@ -1,5 +1,5 @@
 # LESGE
-## Lua Powered Suky Engine
+## Lua Embedded Suky's Game Engine
 The LPSE is a engine that uses lua and C++ to make a game.
 In this version here's the features
 
