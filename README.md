@@ -3,10 +3,14 @@
 The LPSE is a engine that uses lua and C++ to make a game.
 In this version here's the features
 
+[https://github.com/suky637/lesge/raw/main/LESGE.zip](Download)
+
 - All key | mouse input
 - Two Axis (Vertical, Horizontal)
 - Compatible with png
 - draw rectangles, points, and lines
+- Using ImGUI to make editors
+- Using Sound Effects
 
 ## Lua Functions
 - ```Init()```: this function init SDL *Returns 1 if failed*
