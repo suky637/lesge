@@ -101,10 +101,11 @@ function main()
 
         frameTime = frameTime + deltaTime
         while (frameTime >= FPS) do
-			frameTime = frameTime - FPS
-
-            -- Call your updates function; called 60 time a second
-		end
+		frameTime = frameTime - FPS
+           	-- Call your updates function; called 60 time a second
+		
+		
+	end
 
         -- Rendering here
 
